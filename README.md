@@ -1,48 +1,64 @@
-🎮 Space Invaders Remake (Unity Project)
+# 👾 Rise Space Invaders Atari
 
-This project is a reimagining of the Atari classic Space Invaders, built entirely in Unity (C#).
-The goal was to study and reproduce the main mechanics of the original game, applying best practices for code organization and optimization.
+Recriação do clássico Space Invaders desenvolvida em Unity com foco em gameplay systems, gerenciamento de inimigos e programação de jogos utilizando C#.
 
-🚀 Features
+---
 
-Player with horizontal movement and a shooting system with cooldown.
+## 🎮 Gameplay
 
-Enemies organized in formation, moving in groups between two points and descending gradually.
+Controle sua nave, elimine ondas de inimigos e sobreviva o máximo possível em uma experiência inspirada nos clássicos dos arcades.
 
-With each descent, the speed increases, making the game more challenging.
+---
 
-Wave and score management.
+## ⚡ Mecânicas Implementadas
 
-Game Over and restart system.
+- Movimento da nave
+- Sistema de tiros
+- Spawn de inimigos
+- IA básica de movimentação
+- Sistema de colisão
+- Sistema de pontuação
+- Progressão de dificuldade
 
-🧩 Technologies and concepts applied
+---
 
-Unity Engine (2D Physics, Prefabs, Transforms).
+## 🛠️ Tecnologias Utilizadas
 
-C# (Object-Oriented Programming, Loops, Timers, Random.Range, Time.deltaTime).
+- Unity
+- C#
+- Gameplay Systems
+- Física 2D
+- Enemy Management
 
-Simple architectural patterns: GameManager, EnemyManager, UI Manager.
+---
 
-Prefab reuse and script modularization.
+## 🎯 Objetivos do Projeto
 
-🧠 Learnings
+Projeto desenvolvido para prática de:
 
-During development, the focus was on improving simple AI logic, random timing, and movement in controlled patterns.
-It was an excellent exercise to consolidate the fundamentals of game loops, spawn systems, and timing control.
+- programação de gameplay;
+- gerenciamento de múltiplos inimigos;
+- organização de sistemas;
+- lógica de jogos arcade;
+- desenvolvimento de jogos retrô.
 
-📂 Project Structure
+---
 
-Scripts: Main game logic (Player, Enemy, Bullets, Managers).
+## 📌 Status do Projeto
 
-Prefabs: Ship, enemies, projectiles, and effects.
+✅ Finalizado
 
-UI: Score and lives.
+---
 
-📜 License
-
-Free for educational and learning use.
-
-Play Game for Free
-https://ulyssespita.itch.io/rise-space-invaders
+## 📷 Gameplay
 
 <img width="1912" height="1018" alt="image" src="https://github.com/user-attachments/assets/27b63865-41f2-493b-bc7c-b74a6d1799eb" />
+
+---
+
+## 👨‍💻 Desenvolvedor
+
+Ulysses Silveira Pita
+
+- Unity Developer
+- C# Developer
